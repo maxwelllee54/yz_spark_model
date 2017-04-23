@@ -92,4 +92,3 @@ def mySim(text1, text2, sigma=0.85, w=0.3, corpus='ic-brown-resnik.dat'):
 if __name__ == '__main__':
     target = 'By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day'
     test = 'By 2017, the proportion of severely poor individuals has dropped from 15.8% in 2009/10 to below 10%.'
-    print(mySim(target, test))
